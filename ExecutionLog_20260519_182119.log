@@ -1,0 +1,92 @@
+2026-05-19 18:21:19 [INFO   ] IHeartStoriesFlowTest: Execution directory: C:\Users\MIKO\Documents\Miko3 Automation\reports\20260519_182119
+2026-05-19 18:21:19 [INFO   ] IHeartStoriesFlowTest: Connecting to device via ADB...
+2026-05-19 18:21:19 [INFO   ] src.drivers.adb_utils: ADB binary validated: adb
+2026-05-19 18:21:19 [INFO   ] IHeartStoriesFlowTest: Initializing test: IHeartStoriesFlowTest
+2026-05-19 18:21:19 [INFO   ] src.utils.tts_utils: ✓ TTS output directory: audio
+2026-05-19 18:21:21 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 18:21:21 [INFO   ] framework.base.base_talent: STARTING TEST: iHeart Stories (com.miko.iheart)
+2026-05-19 18:21:21 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 18:21:21 [INFO   ] framework.base.base_talent: --- Setup Phase ---
+2026-05-19 18:21:21 [INFO   ] framework.base.base_talent:   [Step 1] Screen management
+2026-05-19 18:21:22 [INFO   ] src.drivers.adb_utils: Swiping (640,576) -> (640,144) in 300ms
+2026-05-19 18:21:24 [INFO   ] src.drivers.adb_utils: Setting screen brightness to 127
+2026-05-19 18:21:24 [INFO   ] src.drivers.adb_utils: Setting power mode to Stay On
+2026-05-19 18:21:26 [INFO   ] framework.base.base_talent: --- Execute Phase ---
+2026-05-19 18:21:26 [INFO   ] __main__: Starting iHeart Stories Flow Test
+2026-05-19 18:21:26 [INFO   ] framework.base.base_talent:   [Step 2] Navigate to Home
+2026-05-19 18:21:26 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-19 18:21:31 [INFO   ] framework.base.base_talent:   [Step 3] Open Apps Drawer
+2026-05-19 18:21:31 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 644)
+2026-05-19 18:21:37 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_3_apps_drawer_opened_1779195095.png
+2026-05-19 18:21:37 [INFO   ] framework.base.base_talent:   [Step 4] Tap Search Icon
+2026-05-19 18:21:37 [INFO   ] src.drivers.adb_utils: Tapping at (1228, 53)
+2026-05-19 18:21:41 [INFO   ] framework.base.base_talent:   [Step 5] Focus Search Field
+2026-05-19 18:21:41 [INFO   ] src.drivers.adb_utils: Tapping at (444, 64)
+2026-05-19 18:21:45 [INFO   ] framework.base.base_talent:   [Step 6] Enter Search Query
+2026-05-19 18:21:45 [INFO   ] src.drivers.adb_utils: Inputting text: iheart
+2026-05-19 18:21:54 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_6_search_results_1779195112.png
+2026-05-19 18:21:54 [INFO   ] framework.base.base_talent:   [Step 7] Press Enter
+2026-05-19 18:21:54 [INFO   ] src.drivers.adb_utils: Key event: 66
+2026-05-19 18:21:57 [INFO   ] framework.base.base_talent:   [Step 8] Close Keyboard
+2026-05-19 18:21:57 [INFO   ] src.drivers.adb_utils: Tapping at (1207, 665)
+2026-05-19 18:22:02 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_8_keyboard_closed_1779195120.png
+2026-05-19 18:22:02 [INFO   ] framework.base.base_talent:   [Step 9] Launch IHeart Stories
+2026-05-19 18:22:02 [INFO   ] src.drivers.adb_utils: Tapping at (238, 365)
+2026-05-19 18:22:11 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_9_iheart_stories_launched_1779195129.png
+2026-05-19 18:22:11 [INFO   ] framework.base.base_talent:   [Step 10] Redirect to IHeart Podcast
+2026-05-19 18:22:11 [INFO   ] src.drivers.adb_utils: Tapping at (254, 433)
+2026-05-19 18:22:19 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_10_iheart_podcast_page_1779195137.png
+2026-05-19 18:22:19 [INFO   ] framework.base.base_talent:   [Step 11] Play IHeart Stories
+2026-05-19 18:22:19 [INFO   ] src.drivers.adb_utils: Tapping at (701, 534)
+2026-05-19 18:22:20 [INFO   ] __main__: Playing iHeart Stories/Podcast...
+2026-05-19 18:22:46 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_11_iheart_stories_playing_1779195165.png
+2026-05-19 18:22:46 [INFO   ] framework.base.base_talent:   [Step 12] Exit - Close Music
+2026-05-19 18:22:46 [INFO   ] src.drivers.adb_utils: Tapping at (85, 66)
+2026-05-19 18:22:51 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_12_music_closed_1779195170.png
+2026-05-19 18:22:51 [INFO   ] framework.base.base_talent:   [Step 13] Play IHeart Stories
+2026-05-19 18:22:51 [INFO   ] src.drivers.adb_utils: Tapping at (701, 534)
+2026-05-19 18:22:52 [INFO   ] __main__: Playing iHeart Stories/Podcast...
+2026-05-19 18:23:19 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_13_iheart_stories_playing_1779195197.png
+2026-05-19 18:23:19 [INFO   ] framework.base.base_talent:   [Step 14] Exit - Close Music
+2026-05-19 18:23:19 [INFO   ] src.drivers.adb_utils: Tapping at (85, 66)
+2026-05-19 18:23:24 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_14_music_closed_1779195202.png
+2026-05-19 18:23:24 [INFO   ] framework.base.base_talent:   [Step 15] Exit - Close Podcast
+2026-05-19 18:23:24 [INFO   ] src.drivers.adb_utils: Tapping at (85, 66)
+2026-05-19 18:23:29 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_15_podcast_closed_1779195207.png
+2026-05-19 18:23:29 [INFO   ] framework.base.base_talent:   [Step 16] Redirect to IHeart Podcast
+2026-05-19 18:23:29 [INFO   ] src.drivers.adb_utils: Tapping at (254, 433)
+2026-05-19 18:23:36 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_16_iheart_podcast_page_1779195215.png
+2026-05-19 18:23:36 [INFO   ] framework.base.base_talent:   [Step 17] Play IHeart Stories
+2026-05-19 18:23:36 [INFO   ] src.drivers.adb_utils: Tapping at (701, 534)
+2026-05-19 18:23:38 [INFO   ] __main__: Playing iHeart Stories/Podcast...
+2026-05-19 18:24:04 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_17_iheart_stories_playing_1779195243.png
+2026-05-19 18:24:04 [INFO   ] framework.base.base_talent:   [Step 18] Exit - Close Music
+2026-05-19 18:24:04 [INFO   ] src.drivers.adb_utils: Tapping at (85, 66)
+2026-05-19 18:24:09 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_18_music_closed_1779195248.png
+2026-05-19 18:24:09 [INFO   ] framework.base.base_talent:   [Step 19] Exit - Close Podcast
+2026-05-19 18:24:09 [INFO   ] src.drivers.adb_utils: Tapping at (85, 66)
+2026-05-19 18:24:14 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_19_podcast_closed_1779195252.png
+2026-05-19 18:24:14 [INFO   ] framework.base.base_talent:   [Step 20] Exit - Exit Skill
+2026-05-19 18:24:14 [INFO   ] src.drivers.adb_utils: Tapping at (85, 66)
+2026-05-19 18:24:19 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_20_skill_exited_1779195257.png
+2026-05-19 18:24:19 [INFO   ] framework.base.base_talent:   [Step 21] Exit - Close Talent
+2026-05-19 18:24:19 [INFO   ] src.drivers.adb_utils: Tapping at (1100, 600)
+2026-05-19 18:24:24 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_21_talent_exiting_1779195262.png
+2026-05-19 18:24:24 [INFO   ] framework.base.base_talent:   [Step 22] Exit - Comeback to Root (1)
+2026-05-19 18:24:24 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-19 18:24:30 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_22_exit_to_root_1_1779195268.png
+2026-05-19 18:24:30 [INFO   ] framework.base.base_talent:   [Step 23] Exit - Comeback to Root (2)
+2026-05-19 18:24:30 [INFO   ] src.drivers.adb_utils: Tapping at (55, 77)
+2026-05-19 18:24:36 [INFO   ] src.drivers.adb_utils: Screenshot saved: reports\20260519_182119\Screenshots\iHeart Stories_23_returned_to_root_1779195274.png
+2026-05-19 18:24:36 [INFO   ] framework.base.base_talent: --- Verify Phase ---
+2026-05-19 18:24:36 [INFO   ] framework.base.base_talent:   [Step 24] Verify no crashes
+2026-05-19 18:24:37 [INFO   ] src.modules.talent_discovery: Force stopped: com.miko.iheart
+2026-05-19 18:24:37 [INFO   ] src.drivers.adb_utils: Key event: 3
+2026-05-19 18:24:38 [INFO   ] framework.base.base_talent: Teardown complete for iHeart Stories
+2026-05-19 18:24:39 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 18:24:39 [INFO   ] framework.base.base_talent: TEST PASSED: iHeart Stories (199.5s) — 24/24 steps passed, 0 steps failed
+2026-05-19 18:24:39 [INFO   ] framework.base.base_talent: ============================================================
+2026-05-19 18:24:39 [INFO   ] IHeartStoriesFlowTest: Generating standalone HTML report...
+2026-05-19 18:24:39 [INFO   ] framework.reporter.html_report: Report generated: reports\20260519_182119\AutomationReport_20260519_182119.html
+2026-05-19 18:24:39 [INFO   ] framework.reporter.html_report: Generating PDF report...
+2026-05-19 18:24:51 [INFO   ] framework.reporter.html_report: PDF Report generated: reports\20260519_182119\AutomationReport_20260519_182119.pdf
